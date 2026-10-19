@@ -1,17 +1,19 @@
 # Базовые библиотеки анализа данных
-pandas>=2.2.3,<3.0.0
-numpy>=1.26.4,<2.0.0
-matplotlib==3.9.0
-seaborn==0.13.2
-jupyter==1.0.0
+pandas>=2.3.3,<3.0.0
+numpy>=2.3.3,<3.0.0
+matplotlib>=3.10.5,<4.0.0
+seaborn>=0.13.2,<0.14.0
 
 # Парсинг
 requests==2.32.3
 beautifulsoup4==4.12.3
-lxml==5.2.2
-fake-useragent==1.5.1
+lxml>=6.0.2,<7.0.0
 
 # Работа с PostgreSQL
 SQLAlchemy==2.0.30
-psycopg2-binary==2.9.9
+psycopg2-binary>=2.9.11,<3.0.0
 python-dotenv==1.0.1
+
+# Парсинг через браузер (обходит антибот-защиту Циана)
+cianparser @ git+https://github.com/SC1DR-OFFICIAL/cianparser-with-headers.git
+playwright>=1.40.0
