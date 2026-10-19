@@ -20,6 +20,7 @@ data/raw/*.json
 data/raw/*.xlsx
 data/processed/*.csv
 data/processed/*.json
+data/raw/html/
 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
