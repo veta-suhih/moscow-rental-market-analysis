@@ -26,8 +26,8 @@ data/raw/html/
 !data/processed/.gitkeep
 
 # Power BI
-*.pbix
-*.pbit
+# *.pbix
+# *.pbit
 
 # Секреты и конфиги
 .env
