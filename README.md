@@ -58,6 +58,13 @@ End-to-end исследование рынка долгосрочной арен
 
 ![Цена за м² по типу арендодателя](images/sql_analysis/06_author_type.png)
 
+## 🖥️ Интерактивный дашборд Power BI
+
+Дашборд состоит из двух страниц: «Обзор рынка» (Executive Summary) и «Детальный анализ» (Deep Dive). Включает DAX-меры (медианы, ранжирование, поиск топ-станций метро), срезы для интерактивной фильтрации и ключевые аналитические инсайты.
+
+![Обзор рынка](images/powerbi/dashboard_overview.png)
+![Детальный анализ](images/powerbi/dashboard_deep_dive.png)
+
 ## 💡 Рекомендации для бизнеса
 
 **Трёхуровневая стратегия выхода на рынок:**
@@ -116,12 +123,13 @@ moscow-rental-market-analysis/
 │   ├── raw/                  # Сырые данные (не коммитятся)
 │   └── processed/            # Очищенные данные (не коммитятся)
 ├── images/
-│   └── sql_analysis/         # Визуализации из ноутбуков
+│   ├── sql_analysis/         # Визуализации из ноутбуков
+│   └── powerbi/              # Скриншоты дашборда
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   └── 02_sql_analysis.ipynb
 ├── powerbi/
-│   └── rental_market.pbix    # (появится после добавления Power BI)
+│   └── rental_market.pbix
 ├── scripts/
 │   ├── scraper.py
 │   └── load_to_db.py
